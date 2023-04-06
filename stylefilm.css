@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(32, 32, 32);
+}
+.popular {
+  display: flex;
+  gap: 25px;
+  padding: 40px;
+  overflow-x: auto;
+  transition: 0.25;
+}
+.popular :hover {
+  background-color: yellowgreen;
+}
+.top-rated {
+  display: flex;
+  gap: 25px;
+  padding: 40px;
+  overflow-x: auto;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orangered;
+  cursor: pointer;
+}
+.movie {
+  display: flex;
+  height: 340px;
+  width: 300px;
+}
+.images {
+  border-radius: 12px;
+}
+h2 {
+  text-align: center;
+  color: yellow;
+}
+.final {
+  margin: 20px;
+  padding: 20px;
+}
+ul {
+  min-width: 100px;
+  padding: 12px;
+  vertical-align: top;
+  color: rgb(255, 233, 30);
+  display: flex;
+  justify-content: space-around;
+}
